@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <title>Locadora´s</title>
+
+</head>
+
+<body>
+
+    <!-- Menu Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <!-- Imagem e Título -->
+            <img style="width:3%;" src="rolo.jfif">
+            <a class="navbar-brand" href="#topo">Locadora´s</a>
+            <!-- Div com itens clicáveis -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#tabFilmes">Filmes Disponíveis</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#drop" id="dropGeneros" role="button"
+                            data-bs-toggle="dropdown"> Filmes por Categoria </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#gAcao">Ação </a></li>
+                            <li><a class="dropdown-item" href="#gAnim">Animação </a></li>
+                            <li><a class="dropdown-item" href="#gDrama">Drama </a></li>
+                            <li><a class="dropdown-item" href="#gCome">Comédia </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cadFilmes">Cadastrar Filme</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <h1 class="display-1 text-center mb-5">Locadora´s</h1>
+
+    <div class="container">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Código</th>
+                    <th scope="col">Título</th>
+                    <th scope="col">Diretor</th>
+                    <th scope="col">Lançamento</th>
+                    <th scope="col">Gênero</th>
+                    <th scope="col">Ator ou Atriz principal</th>
+                    <th scope="col">Nota iMdb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gAcao">Ação</th>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Batman: O Cavaleiro das Trevas</td>
+                    <td>Christopher Nolan</td>
+                    <td>18 de julho de 2008</td>
+                    <td>Ação</td>
+                    <td>Christian Bale</td>
+                    <td>9,0/10</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>O Império Contra-Ataca</td>
+                    <td>Irvin Kershner</td>
+                    <td>21 de julho de 1980</td>
+                    <td>Ação</td>
+                    <td>Mark Hamill</td>
+                    <td>8,7/10</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Matrix</td>
+                    <td>Lana Wachowski, Lilly Wachowski</td>
+                    <td>21 de maio de 1999</td>
+                    <td>Ação</td>
+                    <td>Keanu Reeves</td>
+                    <td>8,7/10</td>
+                </tr>
+                <!-- Linha expandida com gênero do filme -->
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gAnim">Animação</th>
+                </tr>
+                <!-- Quarto Filme filme -->
+                <tr>
+                    <th scope="row">4</th>
+                    <td>O Rei Leão</td>
+                    <td>Rob Minkoff, Roger Allers</td>
+                    <td> 8 de julho de 1994</td>
+                    <td>Animação</td>
+                    <td>James Earl Jones (voz)</td>
+                    <td>8,5/10</td>
+                </tr>
+                <!-- Quinto filme -->
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Túmulo dos Vagalumes</td>
+                    <td>Isao Takahata</td>
+                    <td>24 de novembro de 1989</td>
+                    <td>Animação</td>
+                    <td>TSUTOMU TATSUMI (voz)</td>
+                    <td>8,5/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gDrama">Drama</th>
+                </tr>
+
+                <!-- Sexto filme -->
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Um Sonho de Liberdade</td>
+                    <td>Frank Darabont</td>
+                    <td>17 de março de 1995</td>
+                    <td>Drama</td>
+                    <td>Morgan Freeman</td>
+                    <td>9,3/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">7</th>
+                    <td>O Poderoso Chefão</td>
+                    <td>Francis Ford Coppola</td>
+                    <td>7 de julho de 1972</td>
+                    <td>Drama</td>
+                    <td>Al Pacino</td>
+                    <td>9,2/10</td>
+                </tr>
+
+                <th class="text-center table-primary" colspan="7" id="#gCome">Comédia</th>
+                </tr>
+
+                <!-- Sexto filme -->
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Apertem os Cintos, o Piloto Sumiu</td>
+                    <td>Jim Abrahams, David Zucker, Jerry Zucker</td>
+                    <td>26 de dezembro de 1980</td>
+                    <td>Comédia</td>
+                    <td>Robert Hays</td>
+                    <td>7,7/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">9</th>
+                    <td>Os Caça-Fantasmas</td>
+                    <td>Ivan Reitman</td>
+                    <td>20 de dezembro de 1984</td>
+                    <td>Comédia</td>
+                    <td>Bill Murray</td>
+                    <td>7,8/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="m-5">
+        <hr class="border-primary border-3 opacity-75">
+    </div>
+
+    <div class="container mb-5">
+        <h2 class="text-center">Cadastrar novo filme</h2>
+        <form action="">
+            <div class="row">
+                <div class="mb-3 col">
+                    <label for="codFilme" class="form-label">Código</label>
+                    <input type="text" class="form-control" id="codFilme">
+                </div>
+                <div class="mb-3 col">
+                    <label for="AnoFilme" class="form-label">Lançamento</label>
+                    <input type="data" class="form-control" id="AnoFilme" placeholder="DD de MM de AAAA">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col">
+                    <label for="tituloFilme" class="form-label">Título</label>
+                    <input type="text" class="form-control" id="tituloFilme">
+                </div>
+                <div class="mb-3 col">
+                    <label for="DiretorFilme" class="form-label">Diretor</label>
+                    <input type="data" class="form-control" id="DiretorFilme">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col">
+                    <label for="atorAtriz" class="form-label">Ator ou Atriz principal</label>
+                    <input type="text" class="form-control" id="atorAtriz">
+                </div>
+                <div class="mb-3 col">
+                    <label for="nota" class="form-label">Nota iMDb</label>
+                    <input type="data" class="form-control" id="nota">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroAcao" name="radio" class="form-check-input" value="acao">
+                    <label for="radiogeneroAcao" class="form-label">Ação</label><br>
+                    <input type="radio" id="radioComedia" name="radio" class="form-check-input" value="comedia">
+                    <label for="radioComedia" class="form-label">Comédia</label><br>
+                    <input type="radio" id="radioDrama" name="radio" class="form-check-input" value="drama">
+                    <label for="radioDrama" class="form-label">Drama</label><br>
+                    <input type="radio" id="radioAnima" name="radio" class="form-check-input" value="animacao">
+                    <label for="radioDrama" class="form-label">Animação</label><br>
+                </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class=" btn btn-primary mb-3">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
