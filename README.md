@@ -12,9 +12,13 @@
 </p>
 <p>
 1. Inicio - Informação básica do usuário em formato de "hero header", utilizando o efeito "glass" do CSS para mais estilo.
+ <br>
  2. Sobre - Dados e pequena descrição da vida do usuário e sua atual experiência.
+ <br>
   3. Conhecimentos - Lista dos conhecimentos divido em área e nível de experiência.
+ <br>
   4. Portfolio - Seção dividida em "grids" que mostram os principais projetos já desenvolvidos, com seus respectivos links de acesso.
+<br>
   5. Contato - Seção com as informações de contato do usuário.
 </p>
 <br><br>
@@ -36,7 +40,7 @@
 <hr>
 
 ## Glassmorphism
-<p allign="justify"> Para adicionar um visual diferenciado a seção de introdução foi adicionado um efeito de vidro no CSS utilizando o site <https://css.glass/>.</p>
+<p allign="justify"> Para adicionar um visual diferenciado a seção de introdução foi adicionado um efeito de vidro no CSS utilizando o site https://css.glass/.</p>
 
 <br><br>
 
