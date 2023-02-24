@@ -9,12 +9,13 @@
 
 ##Estrutura básica
 <p allign="justify"> O site foi criado em formato de página única com seções separadas em tópicos utilizando diversos elementos do HTML, como divisões, tabelas, colunas e linhas. Também foram utilizados frameworks como o Bootstrap, Glassmorphism e Font Awesome. Também foi utilizado CSS para formatar e estilizar a página e seus elementos. A página foi dividida em 5 seções:
+</p>
+
 *Inicio: Informação básica do usuário em formato de "hero header", utilizando o efeito "glass" do CSS para mais estilo.
  *Sobre: Dados e pequena descrição da vida do usuário e sua atual experiência.
   *Conhecimentos: Lista dos conhecimentos divido em área e nível de experiência.
   *Portfolio: Seção dividida em "grids" que mostram os principais projetos já desenvolvidos, com seus respectivos links de acesso.
   *Contato: Seção com as informações de contato do usuário.
-</p>
 
 <br><br>
 
